@@ -1,0 +1,5 @@
+let a = prompt("Enter a Strings")
+let input = prompt("Enter that you want to replace to with Uppercase.")
+let b = a.split(input)
+let ans = b.join(input.toUpperCase())
+document.write(ans)
